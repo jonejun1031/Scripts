@@ -1,0 +1,11 @@
+AdaBoost: {'learning_rate': 0.7999569303351485, 'n_estimators': 28}
+
+BernoulNB: {'alpha': 0.7841034293175012, 'fit_prior': True}
+
+LLR: {'C': 0.07869294439823028, 'solver': 'sag'}
+
+RF:{'criterion': 'entropy', 'max_features': 'log2', 'n_estimators': 57}
+
+SVM: {'C': 2.631744513649798, 'gamma': 0.012556237026270166}
+
+DNN：{'activation_type': 'relu', 'dropout': 0.18110397033395292, 'lr': 0.0002465067884895894, 'n_layers': 5, batch_size = 64}}

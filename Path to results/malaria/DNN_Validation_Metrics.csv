@@ -1,0 +1,4 @@
+auc_train,acc_train,mcc_train,CK_train,Recall_train,Precision_train,F1_score_train
+0.990357099,0.9944699,0.634668291,0.595250037,0.444444444,0.912280702,0.597701149
+auc,acc,mcc,CK,Recall,Precision,F1_score
+0.987382795,0.994691608,0.670453083,0.6416172,0.5,0.904761905,0.644067797

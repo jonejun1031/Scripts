@@ -1,0 +1,11 @@
+ADBT：{'learning_rate': 0.13663616616974172, 'n_estimators': 98}
+
+BernoulNB: {'alpha': 0.11351820859776861, 'fit_prior': True}
+
+LLR: {'C': 0.007475672407811551, 'solver': 'newton-cg'}
+
+RF:{'criterion': 'gini', 'max_features': 'sqrt', 'n_estimators': 87}
+
+SVM_rbf:{'C': 1.8016433727082318, 'gamma': 0.006575348455232513}
+
+DNN：{'activation_type': 'relu', 'dropout': 0.2987262372828592, 'lr': 0.000201828533456844, 'n_layers': 4}

@@ -1,0 +1,21 @@
+ADBT：{'learning_rate': 0.42946285087344094, 'n_estimators': 214}
+
+
+BernoulNB: {'alpha': 0.1618369835925636, 'fit_prior': True}
+params_space_BernoulliNB = {'alpha': hp.loguniform('alpha', np.log(0.001), np.log(2)),
+                            'fit_prior': hp.choice('fit_prior', [False, True])}
+
+LLR: {'C': 0.9995042650759449, 'solver': 'liblinear'}
+params_space_LLR = {'C': hp.loguniform('C', np.log(0.01), np.log(10)),
+                   'solver': hp.choice('solver', ['liblinear', 'lbfgs', 'newton-cg', 'sag'])}
+
+RF:{'criterion': 'gini', 'max_features': 'sqrt', 'n_estimators': 9}
+params_space_RF = {'n_estimators': hp.choice('n_estimators', range(1,20)),
+                   'criterion': hp.choice('criterion', ['gini', 'entropy']),
+                   'max_features': hp.choice('max_features', ['log2', 'sqrt'])}
+
+SVM_rbf:{'C': 1.2956045068902298, 'gamma': 0.016675785264395934}
+
+
+DNN：{'activation_type': 'tanh', 'dropout': 0.2677574680367831, 'lr': 0.05619438248747296, 'n_layers': 3, batch_size = 128}
+

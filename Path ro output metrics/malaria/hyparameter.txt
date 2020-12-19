@@ -1,0 +1,11 @@
+ADBT：{'learning_rate': 0.3631875814039419, 'n_estimators': 44}
+
+BernoulNB: {'alpha': 0.4525959332190694, 'fit_prior': True}
+
+LLR: {'C': 7.352008693828876, 'solver': 'sag'}
+
+RF:{'criterion': 'entropy', 'max_features': 'sqrt', 'n_estimators': 4}
+
+SVM_rbf:{'C': 488.1101667405013, 'gamma': 0.0001888702219660824}
+
+DNN：{'activation_type': 'tanh', 'dropout': 0.4728178962219001, 'lr': 0.002785269509609428, 'n_layers': 5, batch_size = 512}
