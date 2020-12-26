@@ -101,8 +101,7 @@ def svm_predict(ifile1, ifile2, ofile1, ofile2, cost, Gam, kern):
     return
 
 
-if __name__ == '__main__':
-    svm_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
+svm_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
                 "E:/My Coding/Scripts/Path to/Validation/lipinski/validation.csv",
                 "E:/My Coding/Scripts/Path to output predictions/lipinski/SVM_Validation_Predictions.csv",
                 "E:/My Coding/Scripts/Path ro output metrics/lipinski/SVM_Validation_Metrics.csv", 530.2383797068135, 0.006468607075138754, "rbf")

@@ -108,8 +108,7 @@ def RF_predict(ifile1,ifile2,ofile1,ofile2,Nest,Crt,MaxFeat):
     return
 
 
-if __name__ == '__main__':
-    RF_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
+RF_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
                 "E:/My Coding/Scripts/Path to/Validation/lipinski/validation.csv",
                 "E:/My Coding/Scripts/Path to output predictions/lipinski/RF_Validation_Predictions.csv",
                 "E:/My Coding/Scripts/Path ro output metrics/lipinski/RF_Validation_Metrics.csv", 46, 'gini', 'sqrt')

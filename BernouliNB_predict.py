@@ -99,8 +99,7 @@ def BNB_predict(ifile1, ifile2, ofile1, ofile2, a, binz, cl_pr, ft_pr):
         writer.writerow([y_test[j], temp[j]])
     return
 
-if __name__ == '__main__':
-    BNB_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
+BNB_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
                 "E:/My Coding/Scripts/Path to/Validation/lipinski/validation.csv",
                 "E:/My Coding/Scripts/Path to output predictions/lipinski/NB_Validation_Predictions.csv",
                 "E:/My Coding/Scripts/Path ro output metrics/lipinski/NB_Validation_Metrics.csv", 1.0258767358679375, 0, None, True)

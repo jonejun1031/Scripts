@@ -101,8 +101,7 @@ def LLR_predict(ifile1, ifile2, ofile1, ofile2, c, sol):
 
     return
 
-if __name__ == '__main__':
-    LLR_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
+LLR_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
                 "E:/My Coding/Scripts/Path to/Validation/lipinski/validation.csv",
                 "E:/My Coding/Scripts/Path to output predictions/lipinski/LLR_Validation_Predictions.csv",
                 "E:/My Coding/Scripts/Path ro output metrics/lipinski/LLR_Validation_Metrics.csv", 0.002167317449445672, 'liblinear')

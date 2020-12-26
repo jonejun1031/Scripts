@@ -118,8 +118,7 @@ def DNN_predict(ifile, ofile1, ofile2, activation_type, dropout, lr, n_layers):
 
     return
 
-if __name__ == '__main__':
-    DNN_predict("E:/My Coding/Scripts/Data for hyperopt/lipinski_ecfp6_1024.csv",
+DNN_predict("E:/My Coding/Scripts/Data for hyperopt/lipinski_ecfp6_1024.csv",
                 "E:/My Coding/Scripts/Path to output predictions/lipinski/DNN_Validation_Predictions.csv",
                 "E:/My Coding/Scripts/Path ro output metrics/lipinski/DNN_Validation_Metrics.csv",
                 'relu', 0.111609750471036, 0.011877960679976696, 5)

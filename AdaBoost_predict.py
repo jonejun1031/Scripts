@@ -99,8 +99,7 @@ def AdaBoost_predict(ifile1, ifile2, ofile1, ofile2, n_est, lr):
 
     return
 
-if __name__ == '__main__':
-    AdaBoost_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
+AdaBoost_predict("E:/My Coding/Scripts/Path to/Train set/lipinski_train_test/train_test.csv",
                 "E:/My Coding/Scripts/Path to/Validation/lipinski/validation.csv",
                 "E:/My Coding/Scripts/Path to output predictions/lipinski/ABDT_Validation_Predictions.csv",
                 "E:/My Coding/Scripts/Path ro output metrics/lipinski/ABDT_Validation_Metrics.csv", 20, 0.29508959738924734)
